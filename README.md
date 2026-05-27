@@ -64,6 +64,75 @@ kotlinc -version
 
 ---
 
+# Instalación de Kotlin en Windows
+
+1. Descargar el archivo `.zip` del compilador Kotlin.
+2. Llevar el archivo descargado al disco local `C:\`
+3. Descomprimir el archivo.
+4. La carpeta debe quedar similar a:
+
+```txt
+C:\kotlin
+```
+
+---
+
+# Configurar Kotlin en el PATH
+
+1. Abrir el buscador de Windows.
+2. Buscar:
+
+```txt
+Editar las variables de entorno del sistema
+```
+
+## Captura de búsqueda
+
+![Busqueda](assets/images/buscador-path.png)
+
+---
+
+3. Se abrirá la ventana **Propiedades del sistema**
+4. Dar clic en:
+
+```txt
+Variables de entorno
+```
+
+## Captura de variables
+
+![Variables](assets/images/variables-sistema.png)
+
+---
+
+5. En **Variables del sistema** buscar:
+
+```txt
+PATH
+```
+
+6. Dar doble clic y seleccionar:
+
+```txt
+Nuevo
+```
+
+7. Agregar:
+
+```txt
+C:\kotlin\bin
+```
+
+8. Guardar cambios.
+
+## Captura de PATH
+
+![Guardado](assets/images/guardado-kotlin.png)
+
+---
+
+---
+
 # Estructura del proyecto
 
 ```plaintext
@@ -125,3 +194,31 @@ kotlin-unit-converter/
 - IntelliJ IDEA
 
 ---
+
+# Flujo Git utilizado
+
+Cada integrante trabaja en una rama independiente:
+
+| Integrante | Rama                          |
+| ---------- | ----------------------------- |
+| BUENDIA    | feature-crud-tareas           |
+| EMILIO     | feature-documentacion-testing |
+| GABRIEL    | feature-modelo-tarea          |
+| RAYMUNDO   | feature-persistencia          |
+| MANUEL     | main                          |
+
+---
+
+# Autor
+
+Proyecto realizado con fines académicos.
+
+```txt
+Integrantes del EQUIPO
+
+Buendia Vazquez Carlos
+Cetz Canul Gabriel Antonio
+Galeana Fernandez Manuel
+Loeza Muños Emilio
+Vela Gonzalez Raymundo De Jesus
+```
