@@ -9,4 +9,12 @@ class WeightConverter {
     fun gramsToKilograms(grams: Double): Double {
         return grams / 1000
     }
+
+    fun kilogramsToPounds(kg: Double): Double {
+        return kg * 2.20462
+    }
+
+    fun poundsToKilograms(pounds: Double): Double {
+        return pounds / 2.20462
+    }
 }
