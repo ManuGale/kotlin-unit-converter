@@ -9,4 +9,12 @@ class LengthConverter {
     fun kilometersToMeters(km: Double): Double {
         return km * 1000
     }
+
+    fun metersToMiles(meters: Double): Double {
+        return meters / 1609
+    }
+
+    fun milesToMeters(miles: Double): Double {
+        return miles * 1609
+    }
 }
