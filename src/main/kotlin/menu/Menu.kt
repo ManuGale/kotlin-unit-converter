@@ -12,3 +12,11 @@ class Menu {
         println("5. Exit")
     }
 }
+
+import menu.Menu
+
+fun main() {
+
+    val menu = Menu()
+    menu.showMainMenu()
+}
