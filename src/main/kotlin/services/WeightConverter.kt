@@ -2,6 +2,18 @@ package services
 
 class WeightConverter {
 
+    private val weightHistory = mutableListOf<Double>()
+
+    fun saveWeight(weight: Double) {
+        weightHistory.add(weight)
+    }
+
+    fun showHistory() {
+        weightHistory.forEach {
+            println(it)
+        }
+    }
+
     fun kilogramsToGrams(kg: Double): Double {
         return kg * 1000
     }
