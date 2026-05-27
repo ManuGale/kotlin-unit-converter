@@ -2,6 +2,14 @@ package services
 
 class LengthConverter {
 
+    private val lengths = listOf("Meters", "Kilometers", "Miles")
+
+    fun showUnits() {
+        lengths.map {
+            println(it)
+        }
+    }
+
     fun metersToKilometers(meters: Double): Double {
         return meters / 1000
     }
